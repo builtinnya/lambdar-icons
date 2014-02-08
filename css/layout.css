@@ -1,0 +1,79 @@
+/*
+=====================================================================
+* Lambdar Icon Generator Layout
+=====================================================================
+
+   Table of Contents:
+   1. Structure
+   2. Common Typography Styles
+   3. Grid
+   4. Other Styles
+      a. Links
+
+===================================================================== */
+
+
+/* ------------------------------------------------------------------ */
+/* 1. Structure
+/* ------------------------------------------------------------------ */
+
+#content-wrapper {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+}
+
+main {
+}
+
+footer {
+}
+
+/* ------------------------------------------------------------------ */
+/* 2. Common Typography Styles
+/* ------------------------------------------------------------------ */
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+  font-family: Montserrat, serif;
+}
+
+/* ------------------------------------------------------------------ */
+/* 3. Grid
+/* ------------------------------------------------------------------ */
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* 4. Other Styles
+/* ------------------------------------------------------------------ */
+
+/*  a. Links  ------------------------------------------------------- */
+
+a, a:visited {
+  text-decoration: none;
+  outline: 0;
+  color: #7AA300;
+  -webkit-transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+a:hover, a:focus {
+  color: #2F8DBC;
+}
+
+p a,
+p a:visited {
+  line-height: inherit;
+}
