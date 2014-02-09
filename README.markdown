@@ -1,7 +1,8 @@
-# Lambdar Icon
+# Lambdar Icons
 
-An icon generator for my personal uses.
+Icons for my personal uses.
 
+# Installation and Usage
 
 # License
 

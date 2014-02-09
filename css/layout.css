@@ -7,8 +7,9 @@
    1. Structure
    2. Common Typography Styles
    3. Grid
-   4. Other Styles
+   4. Default Styles
       a. Links
+      b. Canvas
 
 ===================================================================== */
 
@@ -17,9 +18,9 @@
 /* 1. Structure
 /* ------------------------------------------------------------------ */
 
-#content-wrapper {
+#wrapper {
   background: #fff;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   width: 100%;
 }
@@ -28,6 +29,9 @@ header {
 }
 
 main {
+}
+
+#icons {
 }
 
 footer {
@@ -48,13 +52,17 @@ body,
 /* ------------------------------------------------------------------ */
 
 .container {
-  width: 800px;
+  width: 750px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 2px 0;
+}
+
+.icon-wrapper {
+  width: 500px;
 }
 
 /* ------------------------------------------------------------------ */
-/* 4. Other Styles
+/* 4. Default Styles
 /* ------------------------------------------------------------------ */
 
 /*  a. Links  ------------------------------------------------------- */
@@ -76,4 +84,10 @@ a:hover, a:focus {
 p a,
 p a:visited {
   line-height: inherit;
+}
+
+/*  b. Canvas ------------------------------------------------------- */
+
+canvas {
+  border: 2px solid #AAAAAA;
 }
