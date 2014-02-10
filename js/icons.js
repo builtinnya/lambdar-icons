@@ -30,7 +30,7 @@ var icons = (function () {
     title: 'Lambdar Main Icon',
     draw: function (ctx, width, height) {
       ctx.fillStyle = '#2F8DBC';
-      ctx.font = 'normal bold 150px \"GFS Didot\"';
+      ctx.font = 'normal bold ' + (width / 2) + 'px \"GFS Didot\"';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
       ctx.fillText('λr.', width / 2 , height / 2);

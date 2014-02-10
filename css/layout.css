@@ -7,9 +7,10 @@
    1. Structure
    2. Common Typography Styles
    3. Grid
-   4. Default Styles
+   4. Icons
+   5. Footer
+   6. Default Styles
       a. Links
-      b. Canvas
 
 ===================================================================== */
 
@@ -52,17 +53,59 @@ body,
 /* ------------------------------------------------------------------ */
 
 .container {
-  width: 750px;
-  margin: 0 auto;
-  padding: 0 0 2px 0;
-}
-
-.icon-wrapper {
-  width: 500px;
+  width: 660px;
+  margin: 0 auto 20px auto;
+  padding: 0;
 }
 
 /* ------------------------------------------------------------------ */
-/* 4. Default Styles
+/* 4. Icons
+/* ------------------------------------------------------------------ */
+
+#icons {
+  width: 100%;
+}
+
+#icons canvas {
+  border: 2px solid #AAAAAA;
+}
+
+#icons .icon-wrapper {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+#icons .icon-desc {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+#icons .icon-desc h1 {
+  font-size: 1.5em;
+  margin: 0 0 0.3em 0;
+}
+
+#icons .icon-form-label {
+  width: 4em;
+}
+
+#icons .icon-controls {
+  margin-left: 4.55em;
+}
+
+/* ------------------------------------------------------------------ */
+/* 5. Footer
+/* ------------------------------------------------------------------ */
+
+#footer-bottom {
+  border-top: 1px solid #AAAAAA;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 0.85em;
+}
+
+/* ------------------------------------------------------------------ */
+/* 6. Default Styles
 /* ------------------------------------------------------------------ */
 
 /*  a. Links  ------------------------------------------------------- */
@@ -84,10 +127,4 @@ a:hover, a:focus {
 p a,
 p a:visited {
   line-height: inherit;
-}
-
-/*  b. Canvas ------------------------------------------------------- */
-
-canvas {
-  border: 2px solid #AAAAAA;
 }
