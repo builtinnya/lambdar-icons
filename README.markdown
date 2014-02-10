@@ -2,12 +2,12 @@
 
 Icons for my personal uses.
 
-# Installation and Usage
+## Installation and Usage
 
 All you need to do is clone this repository and open `index.html` in your modern
 web browser.
 
-# License
+## License
 
 Copyright (c) 2014 Naoto Yokoyama
 
